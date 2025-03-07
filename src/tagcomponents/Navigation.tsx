@@ -60,7 +60,7 @@ export default function Navigation(){
     pathName = pathName.charAt(0).toUpperCase() + pathName.slice(1);
     useEffect(() => {
         if(pathName === ""){
-            document.title = "Home | Steven Phung's Resume";
+            document.title = "About Me | Steven Phung's Resume";
         } else {
             document.title = pathName + " | Steven Phung's Resume";
         }
